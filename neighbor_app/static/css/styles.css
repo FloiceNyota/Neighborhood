@@ -22,9 +22,6 @@ nav {
   align-items: center;
   justify-content: center;
 }
-body {
-  background-color: #bae6b9;
-}
 .profile_picture {
   width: 30px;
   height: 30px;
@@ -58,7 +55,8 @@ body {
 }
 .neighborhood {
   margin-bottom: 2rem;
-  background-color: #a1bfa0;
+  background-color: rgb(51, 14, 58);
+  color: white;
   padding: 2rem;
 }
 .buttons {
