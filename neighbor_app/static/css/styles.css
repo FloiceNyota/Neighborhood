@@ -10,9 +10,8 @@ nav {
 .banner-items {
   font-weight: 900;
   text-shadow: white 0px 0px 10px;
-  color: #208a3f;
+  color: rgb(51, 14, 58);
   font-size: 20px;
-  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
 }
 .banner {
   width: 100%;

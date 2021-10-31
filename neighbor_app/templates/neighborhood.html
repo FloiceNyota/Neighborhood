@@ -6,10 +6,10 @@
       <div class="col-md-2"></div>
       <div class="col-md-8 text-center banner-items">
         <h2>Welcome to {{neighborhood.name}} Neighborhood</h2>
-        <p>Neighborhood Location: {{neighborhood.location}}</p>
-        <p>Occupants Population: {{neighborhood.population}}</p>
-        <p>Police Telephone no: {{neighborhood.police_contact}}</p>
-        <p>Hospital Telephone no: {{neighborhood.hospital_contact}}</p>
+        Neighborhood Location: {{neighborhood.location}},
+        Occupants Population: {{neighborhood.population}},
+        Police Telephone no: {{neighborhood.police_contact}},
+        Hospital Telephone no: {{neighborhood.hospital_contact}}</p>
       </div>
       <div class="col-md-2"></div>
     </div>
@@ -57,8 +57,8 @@
       {% endif %}
     </div>
     <div class="col-md-3">
-      <h2 class="text-center header">People</h2>
-      <p>View the profiles of people alson in the neighborhood</p>
+      <h2 class="text-center header">Neighbors</h2>
+      <p>View the profiles of neighbors</p>
       {% if users %}
       {% for person in users %}
       <div class="users">
